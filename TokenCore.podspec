@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/ethanhou/ios-token-core.git", :tag => "#{s.version}" }
   s.source_files  = "Sources/**/*.{h,m,swift}"
   s.swift_version = "4.0"
-  s.dependency "CryptoSwift", "1.0"
+  s.dependency "CryptoSwift"
   s.dependency "BigInt"
   s.dependency "GRKOpenSSLFramework"
   s.dependency "CoreBitcoin"
